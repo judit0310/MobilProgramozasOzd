@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MobilProgOzd</string>
+    <string name="KoszonoSzoveg">Szia Világ!</string>
+    <string name="Masodik">Mizu?</string>
+    <string name="title_activity_cim_felvilet">CimFelviletActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="cim_adatok">Cím adatai</string>
+    <string name="iranyitoszam">Irányítószám</string>
+    <string name="varos">Város</string>
+    <string name="hozzaadas">Hozzáadás</string>
+    <string name="beadottErtekSzoveg">A beadott értékek a következőek</string>
+    <string name="nevkiir">Név:</string>
+    <string name="cimkiir">Cím:</string>
+    <string name="kamera">Kamera megnyitása</string>
 </resources>

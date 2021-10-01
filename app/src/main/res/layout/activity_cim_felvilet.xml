@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:theme="@style/ThemeOverlay.MobilProgOzd.FullscreenContainer"
+    tools:context=".CimFelviletActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <LinearLayout
+        android:id="@+id/adatok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/nevMezo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Teljes név"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textAppearance="@style/sajat" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cim_adatok"
+            android:textAlignment="center"
+            android:textAppearance="@style/sajat" />
+
+        <EditText
+            android:id="@+id/iranyitoszamMezo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/iranyitoszam"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/sajat" />
+
+        <EditText
+            android:id="@+id/varosMezo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/varos"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/sajat" />
+
+        <EditText
+            android:id="@+id/utcaMezo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Utca"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/sajat" />
+
+        <EditText
+            android:id="@+id/hazszamMezo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Házszám"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/sajat" />
+
+        <Button
+            android:id="@+id/hozzaadasGomb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/hozzaadas" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:id="@+id/fullscreen_content_controls"
+                style="@style/Widget.Theme.MobilProgOzd.ButtonBar.Fullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

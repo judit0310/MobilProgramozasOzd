@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobilProgOzd">
         <activity
+            android:name=".CimMegjelenites"
+            android:exported="true" />
+        <activity
+            android:name=".CimFelviletActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/title_activity_cim_felvilet"
+            android:theme="@style/Theme.MobilProgOzd.Fullscreen" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
